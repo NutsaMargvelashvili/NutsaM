@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Dior Homme - Men's Fragrance - Fragrance | DIOR</title>
+  <link rel="icon" type="image/ICO" href="./images/icon.ICO">
+  <link rel="stylesheet" href="./Style/main.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,100;1,500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@600&family=Nanum+Myeongjo&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Nanum+Myeongjo&display=swap');
+
+    .section__title h2{
+      text-align: center;
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 30px;
+    }
+    .section__image img{
+      width: 100%;
+    }
+    .section__image figcaption{
+      margin: 50px 150px;
+      text-align: center;
+      font-size: 18px;
+      font-family: 'Josefin Slab', serif;
+    }
+    .header__name h1{
+      font-size: 50px;
+      font-family: 'Cormorant Infant', serif;
+      margin-top: 0px;
+      margin-left: 280px;
+      margin-bottom: 0px;
+      color: #FFF;
+    }
+    .nav-dior ul{
+      display: flex;
+      list-style-type: none;
+      justify-content: space-evenly;
+    }
+    .nav-dior .nav__list-item a{
+      text-decoration: none;
+      color: #000;
+      text-transform: uppercase;
+      font-size: 15px;
+      margin-bottom: 0px;
+      padding-bottom: 15px;
+      border-bottom: 3px solid transparent;
+    }
+    .nav-dior .nav__list-item a:hover{
+      font-weight: bolder;
+      border-bottom: 3px solid #000;
+    }
+    .nav-dior .nav__list-item a:active{
+      font-weight: bolder;
+      border-bottom: 3px solid #000;
+    }
+    .header__wrapper{
+      position: inherit !important;
+      background: black;
+    }
+
+    ul{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      list-style-type: none;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+    .navbar{
+      display: flex;
+      align-items: flex-end;
+    }
+    .nav__list-item a{
+      text-decoration: none;
+      color: #000;
+      display: flex;
+      justify-content: center;
+    }
+    .navbar .nav{
+      width: 100%;
+    }
+    .navbar .nav__list-item a{
+      text-decoration: none;
+      color: #FFF;
+      display: flex;
+      justify-content: space-between;
+    }
+    .main__title h3{
+      text-align: center;
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 25px;
+    }
+    .wrapper__fragrances{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2em;
+    }
+    .wrapper__fragrances div:nth-child(2){
+      border: 1px solid #BDBDBD;
+    }
+    .wrapper__fragrances-item img{
+      width: 100%;
+    }
+    .wrapper__fragrances-item figcaption{
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Julius Sans One', sans-serif;
+      font-weight: bolder;
+      margin-top: 50px;
+    }
+    .wrapper__fragrances-item figcaption.figcap{
+      font-size: 15px;
+      font-family: 'Julius Sans One', sans-serif;
+      margin-top: 15px;
+      text-align: left;
+    }
+    .wrapper__fragrances-item h3{
+      text-align: center;
+      font-size: 18px;
+      font-family: 'Josefin Slab', serif;
+      font-weight: 500;
+    }
+    .figcap h4{
+      text-align:left;
+      font-size: 19px;
+      font-family: 'Josefin Slab', serif;
+      font-weight: bolder;
+      margin-bottom: 0px;
+    }
+    .wrapper__fragrances-item-button{
+      text-align: center;
+    }
+    .wrapper__fragrances-item-button button{
+      height: 44px;
+      width: 125px;
+      border: 1px solid #333;
+      background-color: #FFF;
+      border-radius: 25px;
+    }
+    .wrapper__fragrances-item-button a{
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+      font-family: 'Josefin Slab', serif;
+    }
+    .wrapper__fragrances div:nth-child(4){
+      grid-column: 1/3;
+    }
+    .fragrances-item-video{
+      text-align: center;
+    }
+    .fragrances-item-video iframe{
+      margin-left: 50px;
+    }
+    .fragrances-item-video hr{
+      margin-top: 50px;
+      margin-bottom: 15px;
+    }
+    .fragrances-item-video h3{
+      font-size: 25px;
+      font-family: 'Julius Sans One', sans-serif;
+      font-weight: bolder;
+      text-align: center;
+    }
+    .video__images{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2em;
+    }
+    .video__images img{
+      width: 100%;
+    }
+    .video__images div:first-child{
+      grid-column: 1/4;
+      margin: 15px 100px;
+      font-size: 18px;
+      font-family: 'Josefin Slab', serif;
+      font-weight: 500;
+    }
+    .video__images div:nth-child(5){
+      grid-column: 1/3;
+    }
+    .video__images-items .music{
+      font-size: 19px;
+      font-family: 'Josefin Slab', serif;
+      text-align: center;
+      margin-top: 60px;
+    }
+    .music-text{
+      font-size: 18px;
+      font-family: 'Josefin Slab', serif;
+      font-weight: 500;
+      margin-top: 50px;
+      margin-left: 15px;
+    }
+    .bath__title h3{
+      text-align: center;
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 25px;
+    }
+    .bath__title hr{
+      margin-top: 50px;
+      margin-bottom: 15px;
+    }
+    .wrapper__bath{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2em;
+    }
+    .wrapper__bath-item img{
+      width: 100%;
+    }
+    .wrapper__bath div:nth-child(4){
+      grid-column: 1/3;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+<!--    <iframe src="./images/silence.mp3" allow="autoplay" id="audio"></iframe>-->
+<!--    <audio id="divAudio"  autoplay controls><source src="./images/Leonard%20Cohen%20-%20I'm%20Your%20Man.mp3" type="audio/mp3"></audio>-->
+    <header class="header">
+      <div class="header__top-wrapper">
+        <div class="header__wrapper">
+          <div class="navbar">
+            <nav class="nav">
+              <ul class="nav__list">
+                <li class="nav__list-item"><a href="./main.html">Main</a></li>
+                <li class="nav__list-item"><a href="./aboutme.html">About Us</a></li>
+                <li class="nav__list-item"><a href="./help.html">Help</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__logo-image">
+            <div class="header__name">
+              <h1>DIOR</h1>
+            </div>
+          </div>
+          <div class="header__search">
+            <i class="fas fa-search"></i>
+            <p>Search</p>
+          </div>
+          <div  class="header__selection">
+            <i class="far fa-heart"></i>
+            <p>Your selection</p>
+          </div>
+        </div>
+        <nav class="nav-dior">
+          <ul class="nav__list">
+            <li class="nav__list-item"><a href="https://www.dior.com/en_int/womens-fashion/woman" target="_blank">women's fashion</a></li>
+            <li class="nav__list-item"><a href="https://www.dior.com/en_int/mens-fashion/man" target="_blank">men's fashion</a></li>
+            <li class="nav__list-item"><a href="#main">fragrance</a></li>
+            <li class="nav__list-item"><a href="https://www.dior.com/en_int/make-up/new-makeup" target="_blank">make-up</a></li>
+            <li class="nav__list-item"><a href="https://www.dior.com/en_int/skincare/new-skincare" target="_blank">skincare</a></li>
+            <li class="nav__list-item"><a href="https://www.dior.com/en_int/baby/kids-fashion" target="_blank">kids & baby</a></li>
+            <li class="nav__list-item"><a href="https://www.dior.com/en_int/maison/maison" target="_blank">maison</a></li>
+            <li class="nav__list-item"><a href="https://www.dior.com/en_int/gifts/gifts" target="_blank">gifts & services</a></li>
+            <li class="nav__list-item"><a href="https://www.dior.com/en_int/news-savoir-faire/news-and-events target="_blank"">news & savoir-faire</a></li>
+          </ul>
+        </nav>
+      </div>
+      <hr></hr>
+    </header>
+    <section class="section">
+      <div class="section__top-wrapper">
+        <div class="section__title">
+          <h2>DIOR HOMME</h2>
+        </div>
+<!--        all images are from https://www.dior.com-->
+        <div class="section__image">
+          <img src="https://www.dior.com/couture/var/dior/storage/images/horizon/fragrance/mens-fragrance/dior-homme/cover-dh-edt2/22722496-4-int-EN/cover-dior-homme-edt-20212_1440_1200.jpg"/>
+          <figcaption>A revolutionary interpretation that is audacious and surprising. The unique and immediately recognizable trail of a man, who is distinguished and elegant with a free and cavalier spirit.</figcaption>
+        </div>
+        <hr></hr>
+      </div>
+    </section>
+    <main id="main">
+      <div class="main__top-wrapper">
+        <div class="main__title">
+          <h3>FRAGRANCES</h3>
+        </div>
+        <div class="wrapper__fragrances">
+          <div class="wrapper__fragrances-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwc1ea069c/assets/Y0996445/Y0996445_C099600445_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+            <figcaption class="figcap">
+              <h4>Dior Homme</h4>
+              <p>Eau de toilette</p>
+              <p>Intensity</p>
+            </figcaption>
+          </div>
+          <div class="wrapper__fragrances-item">
+            <img src="https://www.dior.com/couture/var/dior/storage/images/19308271/25-int-EN/push-edito-dh-edt2_1440_1200.jpg"/>
+            <figcaption>DIOR HOMME</figcaption>
+            <h3>A new Dior Homme is born.</h3>
+            <div class="wrapper__fragrances-item-button">
+              <button><a href="https://www.dior.com/en_int/fragrance/mens_fragrance/discover-dior-homme" target="_blank">Discover</a></button>
+            </div>
+          </div>
+          <div class="wrapper__fragrances-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwcfa7cf83/assets/Y0479201/Y0479201_F047924709_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+            <figcaption class="figcap">
+              <h4>Dior Homme Intense</h4>
+              <p>Eau de parfum intense</p>
+              <p>Intensity</p>
+            </figcaption>
+          </div>
+          <div class="wrapper__fragrances-item">
+            <img src="https://www.dior.com/couture/var/dior/storage/images/horizon/fragrance/mens-fragrance/dior-homme/gif-ingredients/19238762-7-eng-GB/gif-ingredients.gif"/>
+            <figcaption class="figcap">
+              <p>A heart of tender woods.</p>
+            </figcaption>
+          </div>
+          <div class="wrapper__fragrances-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw693f598c/assets/Y0469201/Y0469201_F046922009_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460">
+            <figcaption class="figcap">
+              <h4>Dior Homme Sport</h4>
+              <p>Eau de toilette</p>
+              <p>Intensity</p>
+            </figcaption>
+          </div>
+          <div class="wrapper__fragrances-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw32206769/assets/Y0996448/Y0996448_C099600448_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+            <figcaption class="figcap">
+              <h4>Dior Homme</h4>
+              <p>Cologene</p>
+              <p>Intensity</p>
+            </figcaption>
+          </div>
+          <div class="wrapper__fragrances-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw48887c58/assets/Y4001673/Y4001673_C400001673_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+            <figcaption class="figcap">
+              <h4>Dior Homme Parfum</h4>
+              <p>Parfum</p>
+              <p>Intensity</p>
+            </figcaption>
+          </div>
+          <div class="wrapper__fragrances-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw94f3ca1e/assets/Y0996450/Y0996450_C099600450_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+            <figcaption class="figcap">
+              <h4>Dior Homme Original</h4>
+              <p>Eau de toilette</p>
+              <p>Intensity</p>
+            </figcaption>
+          </div>
+          <div class="wrapper__fragrances-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw00d38fb0/assets/Y0996476/Y0996476_C099600782_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+            <figcaption class="figcap">
+              <h4>Dior Homme Sport</h4>
+              <p>Very cool spray</p>
+              <p>Intensity</p>
+            </figcaption>
+          </div>
+        </div>
+        <div class="fragrances-item-video">
+            <hr></hr>
+            <h3>« I’M YOUR MAN »</h3>
+            <iframe width="1229" height="691" src="https://www.youtube-nocookie.com/embed/Ocjdar1yqW8?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video__images">
+          <div class="video__images-items">
+            <p>Robert Pattinson, as you have never seen before… With an irresistible raw sex appeal, he plays a game of strength, charm and power. In iconic images of New York shot with great intensity, he resuscitates the urban heroes of legendary American films.</p>
+          </div>
+          <div class="video__images-items">
+            <img src="https://www.dior.com/couture/var/dior/storage/images/folder-media/folder-images/folder-slider-dior-homme-new-edt/image-1/18552143-1-fre-FR/image-1_1440_1200.jpg"/>
+          </div>
+          <div class="video__images-items">
+            <img src="https://www.dior.com/couture/var/dior/storage/images/folder-media/folder-images/folder-slider-dior-homme-new-edt/image-4/18552152-1-fre-FR/image-4_1440_1200.jpg"/>
+          </div>
+          <div class="video__images-items">
+            <img src="https://www.dior.com/couture/var/dior/storage/images/folder-media/folder-images/folder-slider-dior-homme-new-edt/image-3/18552149-1-fre-FR/image-3_1440_1200.jpg"/>
+          </div>
+          <div class="video__images-items">
+            <img src="https://www.dior.com/couture/var/dior/storage/images/horizon/fragrance/mens-fragrance/discover-dior-homme/bloc-la-musique/block-visuel-la-musique/22725899-3-eng-US/visuel-la-musique_1440_1200.jpg"/>
+          </div>
+          <div class="video__images-items">
+              <p class="music">
+                 THE MUSIC
+              </p>
+               <p class="music-text">“If you want a lover<br>
+                I'll do anything you ask me to<br>
+                And if you want another kind of love<br>
+                I'll wear a mask for you<br>
+                If you want a partner, take my hand, or<br>
+                If you want to strike me down in anger<br>
+                Here I stand<br>
+                I'm your man”.</p>
+              <p class="music">
+                Leonard Cohen’s iconic love anthem inspired the new Dior Homme film, embodied by Robert Pattinson in a game of strength and tenderness.
+              </p>
+            </p>
+          </div>
+        </div>
+        <div class="bath__title">
+          <hr></hr>
+          <h3>BATH & SHAVING</h3>
+        </div>
+        <div class="wrapper__bath">
+          <div class="wrapper__bath-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw17926b4f/assets/Y0996451/Y0996451_C099600451_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+          </div>
+          <div class="wrapper__bath-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwf255aa36/assets/Y0996159/Y0996159_C099600159_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+          </div>
+          <div class="wrapper__bath-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw2c76787c/assets/Y9190300/Y9190300_F091955009_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+          </div>
+          <div class="wrapper__bath-item">
+            <img src="https://www.dior.com/couture/var/dior/storage/images/horizon/fragrance/mens-fragrance/dior-homme/visuel-produits-derives/18712579-1-eng-US/visuel-produits-derives_1440_1200.jpg"/>
+          </div>
+          <div class="wrapper__bath-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwc36d2221/assets/Y0996374/Y0996374_C400100117_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+          </div>
+          <div class="wrapper__bath-item">
+            <img src="https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw061cdeab/assets/Y0996449/Y0996449_C099600449_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"/>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+<!--  <script type="text/javascript">-->
+<!--    function autoplay(){-->
+<!--      var r =confirm("Would You Like To AutoPlay Music?");-->
+<!--      if (r == true) {-->
+<!--        document.getElementById("audio").play();-->
+<!--      }-->
+<!--    }-->
+<!--  </script>-->
+<!--  <script>autoplay();-->
+<!--  </script>-->
+</body>
+</html>

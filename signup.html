@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./Style/main.css">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+    <style>
+        .wrapper__signup{
+            background: black;
+        }
+        .sign-up{
+            position: relative;
+            height: 1000px;
+            padding-top: 240px;
+        }
+        .shape:first-child{
+            left: -100px;
+            top: -250px;
+        }
+        .shape:last-child{
+            right: -100px;
+            bottom: -250px;
+        }
+        form{
+            height: 760px;
+        }
+        .fullName{
+            display: flex;
+            width: 420px;
+        }
+        .fullName input{
+            width: fit-content;
+        }
+        .fullName > div{
+            width: 50%;
+        }
+        .fullName > div:first-child{
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper__signup">
+    <header id="header">
+        <div class="header__wrapper">
+            <div class="navbar">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__list-item"><a href="./main.html">Main</a></li>
+                        <li class="nav__list-item"><a href="#">About Us</a></li>
+                        <li class="nav__list-item"><a href="#">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__logo-image">
+                <div class="header__name">
+                    <h1>NUTSA</h1>
+                </div>
+            </div>
+            <div class="header__search">
+                <i class="fas fa-search"></i>
+                <p>Search</p>
+            </div>
+            <div  class="header__selection">
+                <i class="far fa-heart"></i>
+                <p>Your selection</p>
+            </div>
+        </div>
+    </header>
+    <div class="sign-up">
+        <div class="background">
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <form>
+            <h3>Sign Up</h3>
+            <div class="fullName">
+             <div>
+                <label for="firstName">First Name</label>
+                <input type="text" placeholder="First Name" id="firstName">
+             </div>
+             <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" placeholder="Last Name" id="lastName">
+             </div>
+            </div>
+
+            <label for="email">Username</label>
+            <input type="email" placeholder="Email" id="email">
+
+            <label for="phone">Username</label>
+            <input type="number" placeholder="Phone" id="phone">
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password">
+
+            <label for="repeatPassword">Repeat Password</label>
+            <input type="password" placeholder="Password" id="repeatPassword">
+
+            <button class="log-in">Register</button>
+            <div class="social">
+                <div class="go"><i class="fab fa-google"></i>  Google</div>
+                <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>

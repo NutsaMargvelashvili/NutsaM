@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="./Style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+    <style>
+        .wrapper__aboutMe {
+            background: black;
+            height: 100vh;
+            position: relative;
+        }
+        .image-wrapper{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-wrapper .img{
+            border-radius: 50%;
+            object-fit: cover;
+            width: 400px;
+            height: 400px;
+            background-image: url("./images/me.jpg");
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover;
+            background-position: center;
+        }
+        p.broken-link{
+            width: 100%;
+            text-align: center;
+            color: white;
+            position: absolute;
+            top: 150px;
+            font-size: 40px;
+            letter-spacing: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper__aboutMe">
+    <header id="header">
+        <div class="header__wrapper">
+            <div class="navbar">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__list-item"><a href="./main.html">Main</a></li>
+                        <li class="nav__list-item"><a href="#">Help</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__logo-image">
+                <div class="header__name">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+            <div class="header__search">
+                <i class="fas fa-search"></i>
+                <p>Search</p>
+            </div>
+            <div  class="header__selection">
+                <i class="far fa-heart"></i>
+                <p>Your selection</p>
+            </div>
+        </div>
+    </header>
+    <div class="image-wrapper">
+<!--        <img src="./images/me.jpg" alt="Nuchikoo">-->
+        <div class="img"></div>
+    </div>
+    <p class="broken-link">Broken Link</p>
+</div>
+<script>
+    document.getElementsByClassName('img')[0].addEventListener('mouseover', mouseOver);
+    document.getElementsByClassName('img')[0].addEventListener('mouseout', mouseOut);
+    function mouseOver() {
+        console.log("blin");
+        document.getElementsByClassName("img")[0].style.backgroundImage = "url(\"./images/troll.jpg\")";
+    }
+    function mouseOut() {
+        document.getElementsByClassName("img")[0].style.backgroundImage = "url(\"./images/me.jpg\")";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./Style/main.css">
+    <title>Main page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper-main">
+<header id="header">
+    <div class="header__wrapper">
+        <div class="navbar">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a href="./signup.html">Sign Up</a></li>
+                    <li class="nav__list-item"><a href="./aboutme.html">About Us</a></li>
+                    <li class="nav__list-item"><a href="./help.html">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__logo-image">
+            <div class="header__name">
+                <h1>Main</h1>
+            </div>
+        </div>
+        <div class="header__search">
+            <i class="fas fa-search"></i>
+            <p>Search</p>
+        </div>
+        <div  class="header__selection">
+            <i class="far fa-heart"></i>
+            <p>Your selection</p>
+        </div>
+    </div>
+</header>
+    <div class="sign-in">
+        <div class="background">
+            <div class="shape"></div>
+            <div class="shape"></div>
+        </div>
+        <form>
+            <h3>Login Here</h3>
+
+            <label for="username">Username</label>
+            <input type="text" placeholder="Email or Phone" id="username">
+
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" id="password">
+
+            <button class="log-in">Log In</button>
+            <div class="social">
+                <div class="go"><i class="fab fa-google"></i>  Google</div>
+                <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+            </div>
+        </form>
+    </div>
+<!--    the images are retrieved from the official websites of Dior Porsche and Rolex respectively-->
+<h1 class="title">Find Your Favorite Brand</h1>
+    <p class="subtitle">Sometimes shopping struggles can be real, and I always find that the best recommendations come from my friends and peers, so that’s what I’m hoping this big list can be for you–a go-to for your style and beauty shopping needs from here on out.</p>
+<div class="brands__wrapper">
+<button class="blurred">
+    <img class="brand-img" src="https://www.dior.com/couture/var/dior/storage/images/29439660/23-int-EN/push-just-arrived8_1440_1200.jpg" alt="DIOR"/>
+    <span class="brand-name">Dior</span>
+</button>
+<button class="blurred">
+    <img class="brand-img" src="https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/teaser_720x406x2/dam/pnr/2021/Company/Porsche-X-TAG-Heuer/Gallery-Chronograph/The-chronograph-offers-a-first-glimpse-at-what-the-brands-can-achieve-together.jpeg/jcr:content/The%20chronograph%20offers%20a%20first%20glimpse%20at%20what%20the%20brands%20can%20achieve%20together.jpeg" alt="DIOR"/>
+    <span class="brand-name">Tag Heuer X Porsche</span>
+</button>
+<button class="blurred">
+    <img class="brand-img" src="https://content.rolex.com/dam/watches/family-pages/datejust/update/2021/family-page-datejust-1945_oyster_perpetual_datejust_1802jva_m126333_0010_1802jva_002.jpg?imwidth=1920" alt="DIOR"/>
+    <span class="brand-name">Rolex</span>
+</button>
+</div>
+<div class="table__wrapper">
+    <div class="pricing">
+        <div class="container">
+            <div class="pricing-table table-responsive">
+    <table class="table">
+        <!-- Heading -->
+        <thead>
+        <tr>
+<!--            <th>&nbsp;</th>-->
+            <th class="highlight">
+                Free
+                <span class="ptable-star red">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <i class="fa fa-star-o"></i>
+                    </span>
+                <span class="ptable-price">$0.0</span>
+            </th>
+            <th>
+                Basic
+                <span class="ptable-star green">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </span>
+                <span class="ptable-price">$99.0</span>
+            </th>
+            <th>
+                Business
+                <span class="ptable-star lblue">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </span>
+                <span class="ptable-price">$149.0</span>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+<!--            <td><span class="ptable-title"><i class="fa fa-hdd-o"></i> Storage</span></td>-->
+            <td class="active">
+                <!-- Icon -->
+                <i class="fa fa-hdd-o red"></i>
+                500 MB
+            </td>
+            <td>
+                <!-- Icon -->
+                <i class="fa fa-hdd-o green"></i>
+                100 GB
+            </td>
+            <td>
+                <!-- Icon -->
+                <i class="fa fa-hdd-o lblue"></i>
+                500 GB
+            </td>
+        </tr>
+        <tr>
+<!--            <td><span class="ptable-title"><i class="fa fa-signal"></i> Band Width</span></td>-->
+            <td class="active">
+                <i class="fa fa-signal red"></i>
+                100 TB
+            </td>
+            <td>
+                <i class="fa fa-signal green"></i>
+                500 TB
+            </td>
+            <td>
+                <i class="fa fa-signal lblue"></i>
+                1000 TB
+            </td>
+        </tr>
+        <tr>
+<!--            <td><span class="ptable-title"><i class="fa fa-shield"></i> Security</span></td>-->
+            <td class="active">
+                <i class="fa fa-shield red"></i>
+                100% Secure
+            </td>
+            <td>
+                <i class="fa fa-shield green"></i>
+                100% Secure
+            </td>
+            <td>
+                <i class="fa fa-shield lblue"></i>
+                100% Secure
+            </td>
+        </tr>
+        <tr>
+<!--            <td><span class="ptable-title"><i class="fa fa-headphones"></i> Support</span></td>-->
+            <td class="active">
+                <i class="fa fa-times red"></i>
+                No Support
+            </td>
+            <td>
+                <i class="fa fa-phone green"></i>
+                Phone
+            </td>
+            <td>
+                <i class="fa fa-envelope-o lblue"></i>
+                E-mail / Phone
+            </td>
+        </tr>
+        <!-- Buttons -->
+        <tr>
+<!--            <td>&nbsp;</td>-->
+            <td class="bg-red"><a class="btn" href="./signup.html">Sign Up</a></td>
+            <td class="bg-green"><a class="btn" href="./signup.html">Sign Up</a></td>
+            <td class="bg-lblue"><a class="btn" href="./signup.html">Sign Up</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+    </div>
+</div>
+<script>
+    document.getElementsByClassName('blurred')[0].addEventListener('mouseover', () => {mouseOver(0)});
+    document.getElementsByClassName('blurred')[0].addEventListener('mouseout', () => {mouseOut(0)});
+    document.getElementsByClassName('blurred')[1].addEventListener('mouseover',() => {mouseOver(1)});
+    document.getElementsByClassName('blurred')[1].addEventListener('mouseout', () => {mouseOut(1)});
+    document.getElementsByClassName('blurred')[2].addEventListener('mouseover', () => {mouseOver(2)});
+    document.getElementsByClassName('blurred')[2].addEventListener('mouseout', () => {mouseOut(2)});
+    function mouseOver(i) {
+        // event.target.setAttribute("style", "opacity:0.4;")
+        // event.target.className += " foo";
+        console.log(i)
+
+        document.getElementsByClassName("brand-img")[i].style.opacity = "0.4";
+        document.getElementsByClassName("brand-name")[i].style.display = "flex";
+    }
+    function mouseOut(i) {
+        document.getElementsByClassName("brand-img")[i].style.opacity = "1";
+        document.getElementsByClassName("brand-name")[i].style.display = "none";
+    }
+    document.getElementsByClassName('blurred')[0].onclick = function () {
+        location.href = "./dior.html";
+    };
+    document.getElementsByClassName('blurred')[1].onclick = function () {
+        location.href = "./porsche.html";
+    };
+    document.getElementsByClassName('blurred')[2].onclick = function () {
+        location.href = "./rolex.html";
+    };
+
+//
+
+    const header = document.getElementsByClassName("header__wrapper")[0];
+    let lastScroll = 0;
+    window.addEventListener("scroll", () => {
+        header.style.display = "grid";
+        const currentScroll = window.pageYOffset;
+        if (currentScroll > lastScroll) {
+            header.style.display = "none";
+        }
+        lastScroll = currentScroll;
+    });
+</script>
+</body>
+</html>

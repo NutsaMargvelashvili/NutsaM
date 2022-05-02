@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Help</title>
+    <link rel="stylesheet" href="./Style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"/>
+    <style>
+        .wrapper__aboutMe {
+            background: black;
+            height: 100vh;
+            position: relative;
+        }
+        .image-wrapper{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image-wrapper img{
+            width: 400px;
+            height: 400px;
+            background-image: url("./images/me.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper__aboutMe">
+    <header id="header">
+        <div class="header__wrapper">
+            <div class="navbar">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__list-item"><a href="./main.html">Main</a></li>
+                        <li class="nav__list-item"><a href="./aboutme.html">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__logo-image">
+                <div class="header__name">
+                    <h1>About Me</h1>
+                </div>
+            </div>
+            <div class="header__search">
+                <i class="fas fa-search"></i>
+                <p>Search</p>
+            </div>
+            <div  class="header__selection">
+                <i class="far fa-heart"></i>
+                <p>Your selection</p>
+            </div>
+        </div>
+    </header>
+    <div class="image-wrapper">
+                <img src="./images/help.jpg" alt="ugh">
+    </div>
+</div>
+</body>
+</html>

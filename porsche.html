@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+    <title>Tag Heuer X Porsche</title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+    <link rel="stylesheet" href="./Style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <style>
+        #main-porsche .main__wrapper{
+            height: 500px;
+            width: 100%;
+        }
+        #background-video{
+            width: 100%;
+        }
+        #header-porsche .header__wrapper{
+            background: rgba(0, 0, 0, 0.5);
+            height: 100px;
+            width: 100%;
+            position: fixed;
+        }
+        .header__logo-image img{
+            width: 50px;
+        }
+        ul{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            list-style-type: none;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+        .header__logo-image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .header__logo-image img{
+            width: 100px;
+            height: 55px;
+        }
+        .section{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 20px;
+        }
+        .section img{
+            object-fit: contain;
+            width: 100%;
+        }
+        .description-title{
+            font-family: ProximaNova,sans-serif;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            font-size: 28px;
+        }
+        .description{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .description-subtitle, .description-title{
+            width: 400px;
+        }
+        .description-subtitle{
+            font-family: Helvetica, Arial, sans-serif;
+            color: rgb(128, 128, 128);
+            line-height: 30px;
+        }
+        .discover{
+            width: 100%;
+            height: 500px;
+        }
+        .discover::after{
+            content: "Discover your perfect motorsports watch";
+            height: 500px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: -500px;
+            font-family: ProximaNova, Arial, sans-serif;
+            font-size: 40px;
+            letter-spacing: .1rem;
+            color: #FFFFFF;
+            background-image: linear-gradient(0deg,#000,rgba(0,0,0,.4));
+        }
+        .discover img{
+            object-fit: cover;
+            width: 100%;
+            height: 500px;
+        }
+        #Dempsey-video{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<header id="header-porsche">
+    <div class="header__wrapper">
+        <div class="navbar">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a href="./main.html">Main</a></li>
+                    <li class="nav__list-item"><a href="./aboutme.html">About Us</a></li>
+                    <li class="nav__list-item"><a href="./help.html">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__logo-image">
+            <img src="./images/TagHeuer.png" alt="Tag Heuer"/>
+        </div>
+        <div class="header__search">
+            <i class="fas fa-search"></i>
+            <p>Search</p>
+        </div>
+        <div  class="header__selection">
+            <i class="far fa-heart"></i>
+            <p>Your selection</p>
+        </div>
+    </div>
+</header>
+<main id="main-porsche">
+<!--    every image/video used here is from https://www.tagheuer.com -->
+    <div class="main__wrapper">
+        <video id="background-video" autoplay loop muted>
+            <source src="./videos/porsche.mp4" type="video/mp4">
+        </video>
+        <div class="section">
+            <video id="Dempsey-video" autoplay loop muted>
+                <source src="./videos/Dempsey.mp4" type="video/mp4">
+            </video>
+            <div class="description">
+                <h3 class="description-title">Racing to the electric future</h3>
+                <p class="description-subtitle">The TAG Heuer Porsche Formula E team represents both brands’ passion for innovation and audacity. The development of the fully electronic Porsche 99X, with its ambitious E-Performance Powertrain, is supported by TAG Heuer and Porsche. Proof that tradition doesn't live in the past.</p>
+            </div>
+            <div class="description">
+                <h3 class="description-title">When TAG Heuer and Porsche open a new chapter in racing</h3>
+                <p class="description-subtitle">Relive our partnership launch event and enter the strongest-ever partnership between an auto maker and a watch brand.</p>
+            </div>
+            <img src="https://www.tagheuer.com/on/demandware.static/-/Sites-tagheuer-master/default/dw1152584b/TAG_Heuer_Carrera/CBN2A1H.FC6512/CBN2A1H.FC6512_USP3.jpg" alt="porsche"/>
+        </div>
+        <div class="section">
+            <img src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw9b3f17d6/images/porsche/06.usp/usp_sm.jpg?impolicy=resize&width=800" alt="porsche"/>
+            <div class="description">
+                <h3 class="description-title">Racing to the electric future</h3>
+                <p class="description-subtitle">The TAG Heuer Porsche Formula E team represents both brands’ passion for innovation and audacity. The development of the fully electronic Porsche 99X, with its ambitious E-Performance Powertrain, is supported by TAG Heuer and Porsche. Proof that tradition doesn't live in the past.</p>
+            </div>
+            <div class="description">
+                    <h3 class="description-title">When TAG Heuer and Porsche open a new chapter in racing</h3>
+                    <p class="description-subtitle">Relive our partnership launch event and enter the strongest-ever partnership between an auto maker and a watch brand.</p>
+            </div>
+            <img src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw83d6af8c/images/porsche/07.usp/usp_sm.jpg?impolicy=resize&width=800" alt="porsche"/>
+        </div>
+        <div class="discover">
+            <img src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwee3317c0/images/porsche/08.push/push-mobile.jpg?impolicy=resize&width=800" alt="watch"/>
+        </div>
+    </div>
+</main>
+</body>
+</html>
